@@ -1,0 +1,19 @@
+<div class="container">
+  <p-menubar [model]="items" class="card cardstyle">
+
+    <ng-template pTemplate="start">
+      <div class="flex logo">
+        <img src="../../../../assets/images/logo_new3.1.png" style="width: 12.5rem; ">
+      </div>
+    </ng-template>
+
+    <ng-template pTemplate="end">
+      <div class="flex gap-3 align-items-center font-size: 2vw">
+        <!-- <i class="fa-regular fa-user" style="color: #FACA72;"></i> -->
+        <i class="fas fa-bars" style="color: #FACA72;" routerLink="/setting"></i>
+
+      </div>
+    </ng-template>
+
+  </p-menubar>
+</div>
